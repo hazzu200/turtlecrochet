@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    text-align: center;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav_links li:hover{
+    color: darkgrey;
+    cursor: pointer;
+}
+.nav_buttons button{
+    padding-left: 10px;
+}
+.banner{
+    height: 500px;
+}
+.products-section{
+    height: 600px;
+}
+.delivery-info{
+    height: 700px;
+}
+.yarn-info{
+    height: 700px;
+}
+.footer{
+    height: 600px;
+}
