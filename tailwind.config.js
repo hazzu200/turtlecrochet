@@ -6,8 +6,11 @@ export default {
   theme: {
     extend: {
       colors:{
-        'background-beige': "#e3d6be",
-        "border-cyan": "#22577a"
+        'background-beige': "#c0c1b4",
+        "footer-bg": "#896f65",
+        "nav-background": "#fff3ea",
+        "white-font": "#efe6d3"
+
       },
       fontFamily:{
         'Faculty-Glyphic': 'Faculty Glyphic',

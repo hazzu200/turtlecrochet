@@ -1,3 +1,4 @@
+
 import DisplayProduct from "./DisplayProduct";
 
 export default function ProductSection(){
