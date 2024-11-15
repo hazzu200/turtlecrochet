@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banners";
-import ProductSection from "../components/ProductsSection";
+import ProductSection from "../components/ProductsAd";
 import DeliveryInfo from "../components/DeliveryInfo";
 import Footer from "../components/Footer";
 import Yarninfo from "../components/YarnInfo";

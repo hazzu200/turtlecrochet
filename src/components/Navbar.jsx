@@ -1,14 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { faCartShopping , faBox , faUser} from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar(){
     return (
-        <nav className="flex bg-white justify-between items-center px-10 py-5 sticky top-0">
+        <nav className="flex bg-background-color justify-between items-center px-10 py-5 sticky top-0">
             <div className="">
-                <input type="text"  className="border-b-2 border-gray-400 focus:border-black text-xl bg-white" placeholder="Search"/>
+            <button className='text-3xl text-border-cyan mr-3'><FontAwesomeIcon icon={faBox} /></button>
+            <button className='text-3xl text-border-cyan'>   <FontAwesomeIcon icon={faCartShopping}/></button>
             </div>
-            <div className="flex flex-col justify-center items-center -translate-x-16">
-                <div className="text-5xl mb-4 hover:cursor-pointer font-Faculty-Glyphic font-">TurtleCrochet</div>
+            <div className="flex flex-col justify-center items-center -translate-x-1.5">
+                <div className="text-5xl mb-4 hover:cursor-pointer font-Faculty-Glyphic ">TurtleCrochet</div>
                 <ul className="nav_links">
                     <li ><a href="#/">Home</a></li>
                     <li>About</li>
@@ -17,8 +18,7 @@ export default function Navbar(){
                 </ul>
             </div>
             <div className="nav_buttons">
-                <button> Cart</button>
-                <button>Profile</button>
+                <button className='text-3xl text-border-cyan'><FontAwesomeIcon icon={faUser} /></button>
             </div>
            
         </nav>

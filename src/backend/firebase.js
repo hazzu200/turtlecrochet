@@ -1,7 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getDatabase } from "firebase/database";
-import {ref, child, get} from "firebase/database"
+import { getDatabase,ref } from "firebase/database";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -19,6 +18,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 export const fb_app = initializeApp(firebaseConfig);
-export const fb_database = getDatabase(fb_app)
+export const fb_database = ref(getDatabase());
 
 
